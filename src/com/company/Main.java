@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -30,6 +32,9 @@ public class Main {
             System.out.println("Значение num больше 0 - вы сохранили положительное число");
         }
 
-
+        Scanner apple = new Scanner(System.in);
+        System.out.println("Введите ваше имя");
+        String car = apple.nextLine();
+        System.out.println("Введите ваше имя" + car);
     }
 }
